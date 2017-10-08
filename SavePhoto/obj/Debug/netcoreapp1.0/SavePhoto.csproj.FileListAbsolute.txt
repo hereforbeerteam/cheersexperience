@@ -1,0 +1,9 @@
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\bin\Debug\netcoreapp1.0\SavePhoto.deps.json
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\bin\Debug\netcoreapp1.0\SavePhoto.dll
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\obj\Debug\netcoreapp1.0\SavePhoto.csprojResolveAssemblyReference.cache
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\obj\Debug\netcoreapp1.0\SavePhoto.csproj.CoreCompileInputs.cache
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\obj\Debug\netcoreapp1.0\SavePhoto.AssemblyInfo.cs
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\bin\Debug\netcoreapp1.0\SavePhoto.pdb
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\obj\Debug\netcoreapp1.0\SavePhoto.dll
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\obj\Debug\netcoreapp1.0\SavePhoto.pdb
+C:\Users\rozma\source\repos\SavePhoto\SavePhoto\obj\Debug\netcoreapp1.0\SavePhoto.AssemblyInfoInputs.cache

@@ -1,0 +1,158 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "b8df628de89903e107ea8cc1837610cc956e80f0"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "CheersExperience/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Rekognition": "3.3.6",
+          "AWSSDK.S3": "3.3.5.13",
+          "AWSSDK.StepFunctions": "3.3.0.18",
+          "Amazon.Lambda.Core": "1.0.0",
+          "Amazon.Lambda.S3Events": "1.0.1",
+          "Amazon.Lambda.Serialization.Json": "1.1.0"
+        },
+        "runtime": {
+          "CheersExperience.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.S3Events/1.0.1": {
+        "dependencies": {
+          "AWSSDK.S3": "3.3.5.13"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.S3Events.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.Json/1.1.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.0.0",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.Serialization.Json.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.17": {
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.Rekognition/3.3.6": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.17"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.Rekognition.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.5.13": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.17"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.S3.dll": {}
+        }
+      },
+      "AWSSDK.StepFunctions/3.3.0.18": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.17"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.StepFunctions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CheersExperience/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+pBYGHaOaDAhu2j8BA5MhKLwxZM7lgmTSroGyCzEqWMBx+uc+QtpED2ShCAkKjKeedXH+LvJpQAUkEtW7rfcgQ==",
+      "path": "amazon.lambda.core/1.0.0",
+      "hashPath": "amazon.lambda.core.1.0.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.S3Events/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8nnTTccCgNbjKmUZc7eNQbXIe7tH1AB67Dp0CregdVYkFIrIUFz709KwZHFkfjwx8nB4JXfLA9K/p+cP2uQHwQ==",
+      "path": "amazon.lambda.s3events/1.0.1",
+      "hashPath": "amazon.lambda.s3events.1.0.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.Json/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xRovd71Kji08OYj3PkHlNMA/RgRdyGj2TLRFt7R5JrzHkrrH8fV8DjdaCDR1SLf8p8LJF6fQjEHdW5vSDOArrw==",
+      "path": "amazon.lambda.serialization.json/1.1.0",
+      "hashPath": "amazon.lambda.serialization.json.1.1.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.3.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTE47l/BVjbelMxYKCAMaPM+OsnDY3t5nTFXYHEJeV+EFvSHsFNLCt2pbu4YBKWRhgvYmGCJzykdngkfwgjeog==",
+      "path": "awssdk.core/3.3.17",
+      "hashPath": "awssdk.core.3.3.17.nupkg.sha512"
+    },
+    "AWSSDK.Rekognition/3.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k5bOBXgpZRHyHQ1xA6Y2FiEz+rzKpXTmb1hZuJteJFSE9EfAIzoJXFP2xN3uLgU92dj9gJoqpisR5f+wf7ULBg==",
+      "path": "awssdk.rekognition/3.3.6",
+      "hashPath": "awssdk.rekognition.3.3.6.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.3.5.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RAX7AU63RtcgvgEY46j338nsyyIsk8sJYmuK3jWUowRTNx0ZPgdH196B6R2IYo76OJ+n3XPMrtM2cNzXL2UF8A==",
+      "path": "awssdk.s3/3.3.5.13",
+      "hashPath": "awssdk.s3.3.3.5.13.nupkg.sha512"
+    },
+    "AWSSDK.StepFunctions/3.3.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tMxPgs/luhiybssOS8CnN7Y5J44q7yLrH5rzIQA5cTSntwqV2sj+LpAOSgl7nhOjqFxvzs9/Wlpk0/Uv6G6foA==",
+      "path": "awssdk.stepfunctions/3.3.0.18",
+      "hashPath": "awssdk.stepfunctions.3.3.0.18.nupkg.sha512"
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "path": "newtonsoft.json/9.0.1",
+      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
+      "path": "system.runtime.serialization.primitives/4.1.1",
+      "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
+    }
+  }
+}
